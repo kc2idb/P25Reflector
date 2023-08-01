@@ -1,0 +1,5 @@
+I: 2023-08-01 22:43:26.488 Opening P25 network connection
+I: 2023-08-01 22:43:26.488 Opening UDP port on 41000
+I: 2023-08-01 22:43:26.504 Loaded 109242 Ids to the callsign lookup table
+M: 2023-08-01 22:43:26.504 Starting P25Reflector-20210912
+I: 2023-08-01 22:43:26.504 Started the DMR Id lookup reload thread
