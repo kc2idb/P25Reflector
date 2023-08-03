@@ -1,0 +1,5 @@
+FROM nimmis/apache-php5
+WORKDIR /var/www/html
+COPY MMDVM-Install/P25/P25Reflector-Dashboard /var/www/html/
+VOLUME [ "/data" ]
+EXPOSE 80
