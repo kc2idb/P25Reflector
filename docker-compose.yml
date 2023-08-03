@@ -1,0 +1,26 @@
+version: '3.6'
+volumes:
+  data:
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - "41000:41000/udp"
+    volumes:
+      - data:/data
+    links:
+      - apache
+  apache:
+    #image: p25new
+    build: 
+      context: .
+      dockerfile: dockerfile2
+    volumes:
+      - data:/data
+      
+    ports:
+      - "80:80"
+    
+    
