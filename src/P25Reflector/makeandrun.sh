@@ -1,3 +1,3 @@
 #/bin/sh
-make && make install
+make
 ./P25Reflector P25Reflector.ini $
