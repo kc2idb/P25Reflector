@@ -9,3 +9,7 @@ WORKDIR /opt/P25Reflector
 #CMD "P25Reflector", "P25Reflector.ini"
 RUN make
 CMD ./P25Reflector P25Reflector.ini
+
+FROM nginx
+COPY src/P25Reflector-Dashboard /usr/share/nginx/html
+
