@@ -2,4 +2,5 @@ FROM nimmis/apache-php5
 WORKDIR /var/www/html
 COPY P25Dash /var/www/html/
 VOLUME [ "/data" ]
+RUN rm index.html
 EXPOSE 80
