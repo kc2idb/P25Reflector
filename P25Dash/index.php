@@ -52,8 +52,8 @@ include "version.php";
 checkSetup();
 // Here you can feel free to disable info-sections by commenting out with // before include
 include "include/txinfo.php";
-//include "include/sysinfo.php";
-//include "include/disk.php";
+include "include/sysinfo.php";
+include "include/disk.php";
 include "include/gateways.php";
 include "include/lh.php";
 include "include/allheard.php";

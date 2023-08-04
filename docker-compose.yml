@@ -11,16 +11,19 @@ services:
     volumes:
       - data:/data
     links:
-      - apache
-  apache:
+      - webserver
+    restart: always
+
+
+  webserver:
     #image: p25new
     build: 
       context: .
       dockerfile: dockerfile2
     volumes:
       - data:/data
-      
     ports:
       - "80:80"
+    restart: always
     
     

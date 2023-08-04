@@ -13,4 +13,6 @@ define("LOGO", "DVSwitch.png");
 define("REFRESHAFTER", "5");
 define("TEMPERATUREHIGHLEVEL", "60");
 define("SHOWQRZ", "");
+define("Name", "South Jersey P25");
+define("DESCRIPTION", "South Jersey P25");
 ?>
